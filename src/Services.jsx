@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 export * from "./Services.js";
-=======
 const city = "Jakarta";
 const street = "Jl Kebon Jeruk";
 
@@ -33,4 +31,3 @@ export const getPosts = async () => {
     throw error;
   }
 };
->>>>>>> 398e1de2504a6cbdaa55e36d036560febc1ce565
