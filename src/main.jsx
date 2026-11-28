@@ -2,10 +2,10 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "./index.css";
 import App from "./App.jsx";
-import PageDashboard from "./latihan/pages/PageDashboard.jsx";
+import DashboardPage from "./pages/dashboard";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <PageDashboard />
+    <DashboardPage />
   </StrictMode>,
 );
